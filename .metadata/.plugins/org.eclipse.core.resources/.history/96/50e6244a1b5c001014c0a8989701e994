@@ -1,0 +1,131 @@
+/*
+ * rak3172LoRa.c
+ *
+ *  Created on: Apr 24, 2025
+ *      Author: hashara
+ */
+
+
+#include "rak3172LoRa.h"
+#include "radio.h"
+#include "aes.h"
+#include "rng.h"
+#include "stdio.h"
+#include "string.h"
+#include "stdlib.h"
+
+
+
+ uint8_t key[AES_KEY_SIZE] = {
+          0x7f, 0x7e, 0x15, 0x16,
+          0x28, 0xae, 0xd2, 0xa6,
+          0xab, 0xf9, 0x5c, 0x11,
+          0x00, 0xa0, 0x10, 0x01
+      };
+
+ uint8_t iv[AES_BLOCK_SIZE]={
+		0x11, 0x22, 0x33, 0x44,
+		0x55, 0x66, 0x77, 0x88,
+        0x99, 0xAA, 0xBB, 0xCC,
+		0xDD, 0xEE, 0xFF, 0x00
+     };
+
+uint8_t SN[10] = "CN12345678";
+
+
+volatile struct RxData RxCurrents;
+volatile struct PacketHandle LoRaHandle;
+
+#define CH_RX_SIZE 32
+
+volatile uint8_t LoRaCH_Rx[CH_RX_SIZE];
+volatile uint8_t LoRaCH_Tx[CH_TX_SIZE];
+
+volatile uint32_t randNum = 0;
+
+
+int16_t rssiVal;
+int8_t snrVal;
+
+
+
+void OnTxDone(void)
+{
+	LoRaHandle.txDone =true;
+	  // enable receiving  for 5 sec
+}
+
+void OnRxDone(uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr)
+{
+	rssiVal=rssi;
+	snrVal=snr;
+
+	LoRaHandle.rxDone =true;
+    memcpy(LoRaCH_Rx,payload,sizeof(LoRaCH_Rx));
+
+
+}
+
+void OnTxTimeout(void)
+{
+	LoRaHandle.txTimeout =true;
+
+}
+
+
+void OnRxTimeout(void)
+{
+	LoRaHandle.rxTimeout =true;
+
+}
+
+void OnRxError(void)
+{
+	LoRaHandle.rxError =true;
+}
+
+
+
+void RadioInit(void) {
+    static RadioEvents_t RadioEvents;  // Make sure it's static or global
+
+    // Assign the callback functions
+    RadioEvents.TxDone = OnTxDone;
+    RadioEvents.RxDone = OnRxDone;
+    RadioEvents.TxTimeout = OnTxTimeout;
+    RadioEvents.RxTimeout = OnRxTimeout;
+    RadioEvents.RxError = OnRxError;
+
+    // Initialize the radio with the events
+    Radio.Init(&RadioEvents);
+
+    Radio.SetChannel(RF_FREQUENCY);
+
+    Radio.SetTxConfig(MODEM_LORA,TX_OUTPUT_POWER,0,LORA_BANDWIDTH,LORA_SPREADING_FACTOR,LORA_CODINGRATE,
+    		LORA_PREAMBLE_LENGTH,LORA_FIX_LENGTH_PAYLOAD_ON,true,0,0,LORA_IQ_INVERSION_ON,TX_TIMOUT_VALUE);
+
+    Radio.SetRxConfig(MODEM_LORA,LORA_BANDWIDTH,LORA_SPREADING_FACTOR,LORA_CODINGRATE,0,
+    		LORA_PREAMBLE_LENGTH,LORA_SYMBOL_TIMEOUT,LORA_FIX_LENGTH_PAYLOAD_ON,0,true,0,0,LORA_IQ_INVERSION_ON,true);
+
+    Radio.SetMaxPayloadLength(MODEM_LORA,MAX_APP_BUFFEE_SIZE);
+
+}
+
+
+
+void Send_Request(void)
+{
+  struct AES_ctx ctx;
+  AES_init_ctx_iv(&ctx, key, iv);
+
+  HAL_RNG_GenerateRandomNumber(&hrng, &randNum);
+  snprintf((char*)LoRaCH_Tx, CH_TX_SIZE, "%s::%010lu", (char*)SN, randNum);
+  AES_CBC_encrypt_buffer(&ctx, LoRaCH_Tx, CH_TX_SIZE);
+  Radio.Send((uint8_t*)LoRaCH_Tx,CH_TX_SIZE);
+
+}
+
+
+
+
+
