@@ -1,10 +1,13 @@
-12:01:19 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+14:11:48 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
 make -j12 all 
 arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
    text	   data	    bss	    dec	    hex	filename
-  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
 Finished building: default.size.stdout
  
+Finished building: Load_Balancer_chSide.bin
+ 
 
-12:01:19 Build Finished. 0 errors, 0 warnings. (took 264ms)
+14:11:48 Build Finished. 0 errors, 0 warnings. (took 297ms)
 

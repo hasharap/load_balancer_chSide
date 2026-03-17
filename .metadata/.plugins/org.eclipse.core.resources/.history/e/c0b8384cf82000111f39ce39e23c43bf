@@ -1,0 +1,201 @@
+/*
+ * rak3172LoRa.c
+ *
+ *  Created on: Apr 24, 2025
+ *      Author: hashara
+ */
+
+#include "rak3172LoRa.h"
+#include "radio.h"
+#include "aes.h"
+#include "rng.h"
+#include "stdio.h"
+#include "string.h"
+#include "stdlib.h"
+#include "Flashlib.h"
+#include "usart_if.h"
+
+
+
+ uint8_t key[AES_KEY_SIZE] = {
+          0x7f, 0x7e, 0x15, 0x16,
+          0x28, 0xae, 0xd2, 0xa6,
+          0xab, 0xf9, 0x5c, 0x11,
+          0x00, 0xa0, 0x10, 0x01
+      };
+
+ uint8_t iv[AES_BLOCK_SIZE]={
+		0x11, 0x22, 0x33, 0x44,
+		0x55, 0x66, 0x77, 0x88,
+        0x99, 0xAA, 0xBB, 0xCC,
+		0xDD, 0xEE, 0xFF, 0x00
+     };
+
+
+
+uint8_t SN[11];
+uint8_t SNW[11] = "CN19680106";  //to send serial number write
+
+
+volatile struct RxData RxCurrents;
+volatile struct RxData CurrentAvrgBefore;
+volatile struct RxData CurrentAvrgAfter;
+
+volatile LoRaState_t LoRaState = STATE_IDLE;
+
+#define CH_RX_SIZE 32
+
+ uint8_t LoRaCH_Rx[CH_RX_SIZE];
+ uint8_t LoRaCH_Tx[CH_TX_SIZE];
+
+ uint32_t randNum = 0;
+
+
+int16_t rssiVal;
+int8_t snrVal;
+
+
+
+void OnTxDone(void)
+{
+	Radio.Sleep();
+	LoRaState = STATE_TX_DONE;
+}
+
+void OnRxDone(uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr)
+{
+
+    Radio.Sleep();
+    rssiVal=rssi;
+    snrVal=snr;
+
+
+    memcpy(LoRaCH_Rx,payload,sizeof(LoRaCH_Rx));
+    LoRaState = STATE_RX_DONE;
+
+
+}
+
+void OnTxTimeout(void)
+{
+	Radio.Sleep();
+	LoRaState = STATE_TX_TIMEOUT;
+
+}
+
+
+void OnRxTimeout(void)
+{
+	Radio.Sleep();
+	LoRaState = STATE_RX_TIMEOUT;
+
+}
+
+void OnRxError(void)
+{
+	Radio.Sleep();
+	LoRaState = STATE_RX_ERROR;
+}
+
+
+
+void RadioInit(void) {
+    static RadioEvents_t RadioEvents;  // Make sure it's static or global
+
+    // Assign the callback functions
+    RadioEvents.TxDone = OnTxDone;
+    RadioEvents.RxDone = OnRxDone;
+    RadioEvents.TxTimeout = OnTxTimeout;
+    RadioEvents.RxTimeout = OnRxTimeout;
+    RadioEvents.RxError = OnRxError;
+
+    // Initialize the radio with the events
+    Radio.Init(&RadioEvents);
+
+    /*new frequncy updte */
+
+
+    /*-------------------*/
+
+
+
+    Radio.SetChannel(RF_DEFAULT_FREQUENCY);
+
+    Radio.SetTxConfig(MODEM_LORA,TX_OUTPUT_POWER,0,LORA_BANDWIDTH,LORA_SPREADING_FACTOR,LORA_CODINGRATE,
+    		LORA_PREAMBLE_LENGTH,LORA_FIX_LENGTH_PAYLOAD_ON,true,0,0,LORA_IQ_INVERSION_ON,TX_TIMOUT_VALUE);
+
+    Radio.SetRxConfig(MODEM_LORA,LORA_BANDWIDTH,LORA_SPREADING_FACTOR,LORA_CODINGRATE,0,
+    		LORA_PREAMBLE_LENGTH,LORA_SYMBOL_TIMEOUT,LORA_FIX_LENGTH_PAYLOAD_ON,0,true,0,0,LORA_IQ_INVERSION_ON,true);
+
+    Radio.SetMaxPayloadLength(MODEM_LORA,MAX_APP_BUFFEE_SIZE);
+
+}
+
+
+
+void Send_Request(void)
+{
+
+  struct AES_ctx ctx;
+  AES_init_ctx_iv(&ctx, key, iv);
+
+  memset(LoRaCH_Tx, 0, sizeof(LoRaCH_Tx));
+    if(WriteSN) // sending serial number  with frequency write request
+	{
+    	 memcpy(LoRaCH_Tx, SNW, 10);
+    	 LoRaCH_Tx[10] = ':';
+    	 LoRaCH_Tx[11]='4';
+    	 LoRaCH_Tx[12] = ':';
+    	 memcpy(&LoRaCH_Tx[13], SN, 10);
+	}
+    else if(CalibLB) // sending calibrate request
+    {
+    	memcpy(LoRaCH_Tx, SN, 10);
+    	LoRaCH_Tx[10] = ':';
+	    LoRaCH_Tx[11]='3';
+	    LoRaCH_Tx[12] = ':';
+	    memcpy(&LoRaCH_Tx[13], SN, 10);
+
+    }
+    else
+    {
+    	memcpy(LoRaCH_Tx, SN, 10);
+    	LoRaCH_Tx[10] = ':';
+		if(chargerState==ChargeLow  || chargerState==ChargeMiddle)
+		{
+			LoRaCH_Tx[11]='2';
+		}
+		else if(chargerState==ChargeOngoing)
+		{
+			LoRaCH_Tx[11]='1';
+		}
+		else {
+			LoRaCH_Tx[11]='0';
+		}
+		LoRaCH_Tx[12] = ':';
+
+
+    	HAL_RNG_GenerateRandomNumber(&hrng, &randNum);
+		  for (int i = 0; i < 10; i++) {
+		  uint32_t divisor = 1;
+		  for (int j = 0; j < (9 - i); j++) divisor *= 10;
+		  uint8_t digit = (randNum / divisor) % 10;
+		  LoRaCH_Tx[13 + i] = '0' + digit;
+		}
+
+    }
+
+  AES_CBC_encrypt_buffer(&ctx, LoRaCH_Tx, CH_TX_SIZE);
+   Radio.Send((uint8_t*)LoRaCH_Tx,sizeof(LoRaCH_Tx));
+
+}
+
+
+void LoadSerialNumber(void)
+{
+
+    Flash_Read_data(SN_ADDR, SN, 10);
+    SN[10] = '\0';
+}
+
+

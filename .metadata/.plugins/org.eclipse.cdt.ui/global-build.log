@@ -5891,3 +5891,1366 @@ arm-none-eabi-size  Load_Balancer_chSide.elf
   57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
 Finished building: default.size.stdout
  
+08:54:04 **** Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+08:55:14 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+09:13:05 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+09:57:36 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+19:53:15 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+10:04:07 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:04:46 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:23:24 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:26:17 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:28:34 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:28:50 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:44:06 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:32: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |   Flash_Read_data(CONFIG_ADDR, LBtype, 2);
+      |                                ^~~~~~
+      |                                |
+      |                                uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/main.c:37:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57672	    516	   3792	  61980	   f21c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+10:46:31 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:32: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |   Flash_Read_data(CONFIG_ADDR, LBtype, 2);
+      |                                ^~~~~~
+      |                                |
+      |                                uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/main.c:37:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+13:54:56 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+13:55:30 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+14:05:15 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+14:29:29 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:32: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |   Flash_Read_data(CONFIG_ADDR, LBtype, 2);
+      |                                ^~~~~~
+      |                                |
+      |                                uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/main.c:37:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+14:35:50 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:32: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |   Flash_Read_data(CONFIG_ADDR, LBtype, 2);
+      |                                ^~~~~~
+      |                                |
+      |                                uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/main.c:37:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+14:46:13 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:32: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |   Flash_Read_data(CONFIG_ADDR, LBtype, 2);
+      |                                ^~~~~~
+      |                                |
+      |                                uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/main.c:37:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+14:47:57 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:140:32: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |   Flash_Read_data(CONFIG_ADDR, LBtype, 2);
+      |                                ^~~~~~
+      |                                |
+      |                                uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/main.c:37:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57616	    516	   3792	  61924	   f1e4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+14:33:38 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+14:35:05 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+15:20:27 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+15:20:48 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+15:21:00 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+11:23:01 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+15:32:13 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:115:22: error: 'RF_FREQUENCY' undeclared (first use in this function)
+  115 |     Radio.SetChannel(RF_FREQUENCY);
+      |                      ^~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:115:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:32:44 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:115:22: error: 'RF_FREQUENCY' undeclared (first use in this function)
+  115 |     Radio.SetChannel(RF_FREQUENCY);
+      |                      ^~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:115:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:33:09 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+15:27:48 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:115:22: error: 'DEFAULT_RF_FREQUENCY' undeclared (first use in this function); did you mean 'RF_DEFAULT_FREQUENCY'?
+  115 |     Radio.SetChannel(DEFAULT_RF_FREQUENCY);
+      |                      ^~~~~~~~~~~~~~~~~~~~
+      |                      RF_DEFAULT_FREQUENCY
+../Core/Src/rak3172LoRa.c:115:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:28:15 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+15:28:38 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+09:17:01 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+Finished building: Load_Balancer_chSide.bin
+ 
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+11:31:01 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+11:31:40 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+11:50:15 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57584	    516	   3792	  61892	   f1c4	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+12:02:45 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:199:60: error: void value not ignored as it ought to be
+  199 |                                         Frequency_flash[0] =
+      |                                                            ^
+make: *** [Core/Src/subdir.mk:82: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+12:03:55 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57672	    516	   3808	  61996	   f22c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+12:04:49 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57672	    516	   3808	  61996	   f22c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+12:11:11 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:195:33: error: 'Frequency_Done' undeclared (first use in this function); did you mean 'Frequency_flash'?
+  195 |                                 Frequency_Done[0]  = 1;
+      |                                 ^~~~~~~~~~~~~~
+      |                                 Frequency_flash
+../Core/Src/main.c:195:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:82: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+12:11:23 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:196:75: error: 'Frequency_Done' undeclared (first use in this function); did you mean 'Frequency_flash'?
+  196 |                                         Flash_Write_data(FREQ_CONFIG_ADDR,Frequency_Done,1);
+      |                                                                           ^~~~~~~~~~~~~~
+      |                                                                           Frequency_flash
+../Core/Src/main.c:196:75: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:82: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+12:11:28 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57672	    516	   3808	  61996	   f22c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+12:17:32 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:200:41: error: 'Frequency_flash' undeclared (first use in this function)
+  200 |                                         Frequency_flash[0] = received_freq ;
+      |                                         ^~~~~~~~~~~~~~~
+../Core/Src/main.c:200:41: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:119:21: error: 'FREQ_CONFIG_ADDR' undeclared (first use in this function)
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                     ^~~~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:119:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rak3172LoRa.c:119:39: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+make: *** [Core/Src/subdir.mk:82: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/rak3172LoRa.c:123:9: error: 'Read_Frequency' undeclared (first use in this function)
+  123 |         Read_Frequency
+      |         ^~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:123:23: error: expected ';' before '}' token
+  123 |         Read_Frequency
+      |                       ^
+      |                       ;
+  124 |     }
+      |     ~                  
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+12:17:40 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:119:21: error: 'FREQ_CONFIG_ADDR' undeclared (first use in this function)
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                     ^~~~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:119:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rak3172LoRa.c:119:39: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+../Core/Src/rak3172LoRa.c:123:9: error: 'Read_Frequency' undeclared (first use in this function)
+  123 |         Read_Frequency
+      |         ^~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:123:23: error: expected ';' before '}' token
+  123 |         Read_Frequency
+      |                       ^
+      |                       ;
+  124 |     }
+      |     ~                  
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+12:43:12 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:119:21: error: 'FREQ_CONFIG_ADDR' undeclared (first use in this function)
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                     ^~~~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:119:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rak3172LoRa.c:119:39: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+../Core/Src/rak3172LoRa.c:123:9: error: 'Read_Frequency' undeclared (first use in this function)
+  123 |         Read_Frequency
+      |         ^~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:123:23: error: expected ';' before '}' token
+  123 |         Read_Frequency
+      |                       ^
+      |                       ;
+  124 |     }
+      |     ~                  
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:03:35 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../SubGHz_Phy/Target/radio_board_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"SubGHz_Phy/Target/radio_board_if.d" -MT"SubGHz_Phy/Target/radio_board_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SubGHz_Phy/Target/radio_board_if.o"
+arm-none-eabi-gcc "../SubGHz_Phy/App/subghz_phy_app.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"SubGHz_Phy/App/subghz_phy_app.d" -MT"SubGHz_Phy/App/subghz_phy_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SubGHz_Phy/App/subghz_phy_app.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.o"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc "../Core/Src/rng.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rng.d" -MT"Core/Src/rng.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rng.o"
+arm-none-eabi-gcc "../Core/Src/rtc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rtc.d" -MT"Core/Src/rtc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rtc.o"
+../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.c:164:13: error: conflicting types for 'RadioInit'; have 'void(RadioEvents_t *)'
+  164 | static void RadioInit( RadioEvents_t *events );
+      |             ^~~~~~~~~
+In file included from ../Core/Inc/main.h:34,
+                 from ../Core/Inc/platform.h:39,
+                 from ../SubGHz_Phy/Target/radio_conf.h:30,
+                 from ../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.h:45,
+                 from ../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.h:44,
+                 from ../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.c:36:
+../Core/Inc/rak3172LoRa.h:74:6: note: previous declaration of 'RadioInit' with type 'void(void)'
+   74 | void RadioInit(void);
+      |      ^~~~~~~~~
+In file included from ../SubGHz_Phy/App/subghz_phy_app.c:24:
+../SubGHz_Phy/App/subghz_phy_app.h:51: warning: "LORA_BANDWIDTH" redefined
+   51 | #define LORA_BANDWIDTH                              0         /* [0: 125 kHz, 1: 250 kHz, 2: 500 kHz, 3: Reserved] */
+      | 
+In file included from ../Core/Inc/main.h:34,
+                 from ../Core/Inc/platform.h:39,
+                 from ../SubGHz_Phy/App/subghz_phy_app.c:22:
+../Core/Inc/rak3172LoRa.h:60: note: this is the location of the previous definition
+   60 | #define LORA_BANDWIDTH                              2         /* [0: 125 kHz, 1: 250 kHz, 2: 500 kHz, 3: Reserved] */
+      | 
+../SubGHz_Phy/App/subghz_phy_app.h:52: warning: "LORA_SPREADING_FACTOR" redefined
+   52 | #define LORA_SPREADING_FACTOR                       7         /* [SF7..SF12] */
+      | 
+../Core/Inc/rak3172LoRa.h:61: note: this is the location of the previous definition
+   61 | #define LORA_SPREADING_FACTOR                       10        /* [SF7..SF12] */
+      | 
+make: *** [Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/subdir.mk:31: Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:118:21: error: 'FREQ_CONFIG_ADDR' undeclared (first use in this function)
+  118 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                     ^~~~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:118:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rak3172LoRa.c:118:39: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  118 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+../Core/Src/rak3172LoRa.c:122:9: error: 'Read_Frequency' undeclared (first use in this function)
+  122 |         Read_Frequency
+      |         ^~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:122:23: error: expected ';' before '}' token
+  122 |         Read_Frequency
+      |                       ^
+      |                       ;
+  123 |     }
+      |     ~                  
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:03:44 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../SubGHz_Phy/Target/radio_board_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"SubGHz_Phy/Target/radio_board_if.d" -MT"SubGHz_Phy/Target/radio_board_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SubGHz_Phy/Target/radio_board_if.o"
+arm-none-eabi-gcc "../SubGHz_Phy/App/subghz_phy_app.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"SubGHz_Phy/App/subghz_phy_app.d" -MT"SubGHz_Phy/App/subghz_phy_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SubGHz_Phy/App/subghz_phy_app.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.o"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc "../Core/Src/rng.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rng.d" -MT"Core/Src/rng.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rng.o"
+arm-none-eabi-gcc "../Core/Src/rtc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rtc.d" -MT"Core/Src/rtc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rtc.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:118:21: error: 'FREQ_CONFIG_ADDR' undeclared (first use in this function)
+  118 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                     ^~~~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:118:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rak3172LoRa.c:118:39: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  118 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+../Core/Src/rak3172LoRa.c:122:9: error: 'Read_Frequency' undeclared (first use in this function)
+  122 |         Read_Frequency
+      |         ^~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:122:23: error: expected ';' before '}' token
+  122 |         Read_Frequency
+      |                       ^
+      |                       ;
+  123 |     }
+      |     ~                  
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:05:29 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../SubGHz_Phy/Target/radio_board_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"SubGHz_Phy/Target/radio_board_if.d" -MT"SubGHz_Phy/Target/radio_board_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SubGHz_Phy/Target/radio_board_if.o"
+arm-none-eabi-gcc "../SubGHz_Phy/App/subghz_phy_app.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"SubGHz_Phy/App/subghz_phy_app.d" -MT"SubGHz_Phy/App/subghz_phy_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "SubGHz_Phy/App/subghz_phy_app.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_driver.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/radio_fw.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.d" -MT"Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver/wl_lr_fhss.o"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc "../Core/Src/rng.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rng.d" -MT"Core/Src/rng.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rng.o"
+arm-none-eabi-gcc "../Core/Src/rtc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rtc.d" -MT"Core/Src/rtc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rtc.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:118:39: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  118 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+../Core/Src/rak3172LoRa.c:122:9: error: 'Read_Frequency' undeclared (first use in this function)
+  122 |         Read_Frequency
+      |         ^~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:122:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rak3172LoRa.c:122:23: error: expected ';' before '}' token
+  122 |         Read_Frequency
+      |                       ^
+      |                       ;
+  123 |     }
+      |     ~                  
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:05:34 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc "../Core/Src/stm32_lpm_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32_lpm_if.d" -MT"Core/Src/stm32_lpm_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32_lpm_if.o"
+arm-none-eabi-gcc "../Core/Src/stm32wlxx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32wlxx_hal_msp.d" -MT"Core/Src/stm32wlxx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32wlxx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32wlxx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32wlxx_it.d" -MT"Core/Src/stm32wlxx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32wlxx_it.o"
+arm-none-eabi-gcc "../Core/Src/subghz.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/subghz.d" -MT"Core/Src/subghz.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/subghz.o"
+arm-none-eabi-gcc "../Core/Src/sys_app.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sys_app.d" -MT"Core/Src/sys_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sys_app.o"
+arm-none-eabi-gcc "../Core/Src/sys_debug.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sys_debug.d" -MT"Core/Src/sys_debug.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sys_debug.o"
+arm-none-eabi-gcc "../Core/Src/timer_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/timer_if.d" -MT"Core/Src/timer_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/timer_if.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc "../Core/Src/usart_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart_if.d" -MT"Core/Src/usart_if.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/usart_if.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:118:39: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  118 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 1);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+../Core/Src/rak3172LoRa.c:122:9: error: 'Read_Frequency' undeclared (first use in this function)
+  122 |         Read_Frequency
+      |         ^~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:122:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rak3172LoRa.c:122:23: error: expected ';' before '}' token
+  122 |         Read_Frequency
+      |                       ^
+      |                       ;
+  123 |     }
+      |     ~                  
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:06:27 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:118:39: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  118 |     Flash_Read_data(FREQ_CONFIG_ADDR, Freq_Done_read, 2);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+../Core/Src/rak3172LoRa.c:122:9: error: 'Read_Frequency' undeclared (first use in this function)
+  122 |         Read_Frequency
+      |         ^~~~~~~~~~~~~~
+../Core/Src/rak3172LoRa.c:122:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/rak3172LoRa.c:122:23: error: expected ';' before '}' token
+  122 |         Read_Frequency
+      |                       ^
+      |                       ;
+  123 |     }
+      |     ~                  
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+13:07:06 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:118:40: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  118 |     Flash_Read_data(FREQ_CONFIG_ADDR , Freq_Done_read, 1);
+      |                                        ^~~~~~~~~~~~~~
+      |                                        |
+      |                                        uint64_t * {aka long long unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57688	    516	   3816	  62020	   f244	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+13:07:59 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+   text	   data	    bss	    dec	    hex	filename
+  57688	    516	   3808	  62012	   f23c	Load_Balancer_chSide.elf
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+14:25:34 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:119:40: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR , Freq_Done_read, 1);
+      |                                        ^~~~~~~~~~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57688	    516	   3808	  62012	   f23c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+14:26:51 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57688	    516	   3808	  62012	   f23c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+14:32:57 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:119:40: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR , Freq_Done_read, 1);
+      |                                        ^~~~~~~~~~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+../Core/Src/rak3172LoRa.c:123:37: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  123 |         Flash_Read_data(FREQ_ADDR , Freq_Flsh_read, 1);
+      |                                     ^~~~~~~~~~~~~~
+      |                                     |
+      |                                     uint64_t * {aka long long unsigned int *}
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57736	    516	   3824	  62076	   f27c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+14:36:03 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57752	    516	   3824	  62092	   f28c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+15:23:30 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57752	    516	   3824	  62092	   f28c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+15:30:04 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57752	    516	   3824	  62092	   f28c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+15:31:57 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:119:40: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR , Freq_Done_read, 1);
+      |                                        ^~~~~~~~~~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57752	    516	   3808	  62076	   f27c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+15:32:33 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57752	    516	   3808	  62076	   f27c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+15:48:39 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:119:40: warning: passing argument 2 of 'Flash_Read_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  119 |     Flash_Read_data(FREQ_CONFIG_ADDR , Freq_Done_read, 1);
+      |                                        ^~~~~~~~~~~~~~
+      |                                        |
+      |                                        uint16_t * {aka short unsigned int *}
+In file included from ../Core/Src/rak3172LoRa.c:15:
+../Core/Inc/Flashlib.h:18:62: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+   18 | HAL_StatusTypeDef Flash_Read_data(uint32_t address, uint8_t *buffer, uint32_t length);
+      |                                                     ~~~~~~~~~^~~~~~
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57752	    516	   3808	  62076	   f27c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+16:48:17 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57752	    516	   3808	  62076	   f27c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+16:51:24 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57768	    516	   3808	  62092	   f28c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+16:51:57 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57768	    516	   3808	  62092	   f28c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+16:57:47 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57768	    516	   3808	  62092	   f28c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+16:58:05 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57768	    516	   3808	  62092	   f28c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+16:58:22 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57768	    516	   3808	  62092	   f28c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+17:02:14 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57768	    516	   3808	  62092	   f28c	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+17:09:28 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c: In function 'RadioInit':
+../Core/Src/rak3172LoRa.c:124:35: error: expected expression before 'uint32_t'
+  124 |         uint32_t Set_Frequency =  uint32_t(900000000+Freq_Flsh_read[0]*100000);  //if the flash read 15 => freq = 915 MHz
+      |                                   ^~~~~~~~
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:09:47 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+17:40:37 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+17:45:23 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+17:50:21 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c:104:1: error: expected ',' or ';' before 'void'
+  104 | void RadioInit(void) {
+      | ^~~~
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:50:25 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+../Core/Src/rak3172LoRa.c:104:1: error: expected ',' or ';' before 'void'
+  104 | void RadioInit(void) {
+      | ^~~~
+make: *** [Core/Src/subdir.mk:82: Core/Src/rak3172LoRa.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:50:34 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57768	    516	   3816	  62100	   f294	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+17:54:08 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/rak3172LoRa.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rak3172LoRa.d" -MT"Core/Src/rak3172LoRa.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rak3172LoRa.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+09:15:56 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/Flashlib.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx -c -I../Core/Inc -I../SubGHz_Phy/App -I../SubGHz_Phy/Target -I../Utilities/trace/adv_trace -I../Drivers/STM32WLxx_HAL_Driver/Inc -I../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I../Utilities/misc -I../Utilities/timer -I../Utilities/lpm/tiny_lpm -I../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I../Middlewares/Third_Party/SubGHz_Phy -I../Middlewares/Third_Party/SubGHz_Phy/stm32_radio_driver -I../Drivers/CMSIS/Include -I../Utilities/sequencer -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Flashlib.d" -MT"Core/Src/Flashlib.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/Flashlib.o"
+arm-none-eabi-gcc -o "Load_Balancer_chSide.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Projects\LoRa_SOM\RAK3172_Charger\Load_Balancer_chSide\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Load_Balancer_chSide.map" -Wl,--gc-sections -static -u _printf_float -u _scanf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Load_Balancer_chSide.elf
+ 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objdump -h -S Load_Balancer_chSide.elf  > "Load_Balancer_chSide.list"
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 
+Finished building: Load_Balancer_chSide.list
+ 
+09:29:01 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+09:29:18 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+09:29:48 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+09:59:41 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+09:59:58 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:15:48 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:32:42 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:38:27 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:38:39 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:43:26 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:43:33 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:48:28 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:48:40 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+10:49:24 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+11:19:06 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+11:22:20 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+11:27:52 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+14:11:42 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+14:11:48 **** Incremental Build of configuration Debug for project Load_Balancer_chSide ****
+make -j12 all 
+arm-none-eabi-size  Load_Balancer_chSide.elf 
+arm-none-eabi-objcopy  -O binary Load_Balancer_chSide.elf  "Load_Balancer_chSide.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57760	    516	   3808	  62084	   f284	Load_Balancer_chSide.elf
+Finished building: default.size.stdout
+ 
+Finished building: Load_Balancer_chSide.bin
+ 

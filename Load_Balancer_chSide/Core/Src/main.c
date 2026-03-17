@@ -49,7 +49,8 @@
 #define RX_TIMOUT  5000
 #define WATCHDOG_TIMEOUT 10000
 #define SAMPLE_COUNT 30
-#define CONFIG_ADDR ((uint32_t)0x0803F800)
+#define CONFIG_ADDR       ((uint32_t)0x0803F800)
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -76,6 +77,10 @@ Phases_t Phase = NotApper;
 
 Phases_t savedLBtype = NotApper;
 uint64_t LBtype[2];
+
+uint64_t Freq_Done_write[1];
+uint64_t Freq_Flsh_write[1];
+
 
 float threshold=4;
 int i1,i2,i3;
@@ -137,9 +142,10 @@ int main(void)
   // remember to enable uart receiving enable in uart init function
   LoadSerialNumber();
 
-  Flash_Read_data(CONFIG_ADDR, LBtype, 2);
-  savedLBtype = LBtype[0];
-
+  //hard coded 21-01-2026
+  //Flash_Read_data(CONFIG_ADDR, LBtype, 2);
+  savedLBtype = Sp1;   // LBtype[0];
+  //hard coded 21-01-2026
   HAL_Delay(100);
 
 
@@ -180,6 +186,24 @@ int main(void)
 		    	char msgl[]="S\n";
 		        HAL_UART_Transmit(&huart2,(uint8_t*)msgl,strlen(msgl),HAL_MAX_DELAY);
 		        WriteSN = false;
+
+		        /*new frequency update */
+		        if(Flash_Erase_Page(FREQ_CONFIG_ADDR) == HAL_OK)
+				{
+
+		        	Freq_Done_write[0]  = 1;
+					Flash_Write_data(FREQ_CONFIG_ADDR,Freq_Done_write,1);
+
+					uint16_t received_freq = 0;
+					sscanf((char*)&RNR[4] , "%2hu" , &received_freq);
+					Freq_Flsh_write[0] = received_freq ;
+					Flash_Write_data(FREQ_ADDR,Freq_Flsh_write,1);
+					HAL_NVIC_SystemReset();
+
+				}
+		        /*----------------------*/
+
+
 		        Send_Request();
 
 		    }

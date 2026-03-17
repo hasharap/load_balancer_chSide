@@ -21,5 +21,9 @@ i1
 i2
 i3
 ucount
-c
 txToSom
+Frequency_flash
+Frequency_Done
+Freq_Done_read
+Freq_Flsh_read
+Set_Frequency

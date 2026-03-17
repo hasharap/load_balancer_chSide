@@ -36,6 +36,9 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+#define FREQ_CONFIG_ADDR  ((uint32_t)0x0803E800)
+#define FREQ_ADDR         ((uint32_t)0x0803E810)
+
 typedef enum {
     IDLE,
     ChargeLow,
